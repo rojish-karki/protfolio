@@ -5,19 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rojish Karki | Creative Designer</title>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   <script src="main.js" defer></script>
 </head>
 <body>
 
+<!-- HEADER / NAV -->
 <header>
   <nav>
-    <h1>Rojish.</h1>
+    <h1>Rojish Karki</h1>
     <ul id="navLinks">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#philosophy">Philosophy</a></li>
-      <li><a href="#process">Process</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#experience">Experience</a></li>
@@ -32,10 +34,7 @@
   <div class="hero-text">
     <span class="badge">Creative Designer</span>
     <h2>Designing clean & meaningful digital experiences</h2>
-    <p>
-      Graphic Designer • Branding Specialist • Aspiring UI/UX Designer  
-      ICTE Student with a strong technical background.
-    </p>
+    <p>Graphic Designer • Branding Specialist • Aspiring UI/UX Designer<br>ICTE Student with a strong technical foundation.</p>
     <a href="mailto:rojish@email.com" class="btn">Contact Me</a>
   </div>
   <div class="hero-graphic">
@@ -48,11 +47,7 @@
 <!-- ABOUT -->
 <section id="about" class="reveal">
   <h2 class="section-title">About Me</h2>
-  <p class="section-text">
-    I’m a creative designer with a strong foundation in computer engineering.
-    I focus on minimalist design, usability, and visual clarity to create
-    modern digital products.
-  </p>
+  <p class="section-text">I’m a creative designer with a solid foundation in computer engineering. I focus on clean, minimal, and user-friendly designs that communicate effectively.</p>
   <div class="about-stats">
     <div class="stat">
       <h3>2+</h3>
@@ -70,21 +65,21 @@
 </section>
 
 <!-- PHILOSOPHY -->
-<section id="philosophy" class="reveal">
+<section id="philosophy" class="reveal alt">
   <h2 class="section-title">Design Philosophy</h2>
   <div class="philosophy-grid">
     <div class="philo-card blue">
-      <i>👁️</i>
+      <svg width="40" height="40"><circle cx="20" cy="20" r="20" fill="#27548A"/></svg>
       <h3>Clarity</h3>
-      <p>Design should communicate its purpose instantly.</p>
+      <p>Design communicates its purpose instantly.</p>
     </div>
     <div class="philo-card yellow">
-      <i>🧑‍🤝‍🧑</i>
+      <svg width="40" height="40"><circle cx="20" cy="20" r="20" fill="#DDA853"/></svg>
       <h3>User Empathy</h3>
-      <p>Design starts by understanding the user's needs.</p>
+      <p>Design starts by understanding user needs.</p>
     </div>
     <div class="philo-card red">
-      <i>📐</i>
+      <svg width="40" height="40"><circle cx="20" cy="20" r="20" fill="#FF6B6B"/></svg>
       <h3>Consistency</h3>
       <p>Consistent visuals create trust and usability.</p>
     </div>
@@ -92,79 +87,46 @@
 </section>
 
 <!-- PROCESS -->
-<section id="process" class="reveal alt">
+<section id="process" class="reveal">
   <h2 class="section-title">Design Process</h2>
   <div class="process-flow">
-    <div class="process-step">
-      <span>01</span>
-      <div>
-        <h3>Understanding</h3>
-        <p>Clarifying goals, audience, and constraints before design.</p>
-      </div>
-    </div>
-    <div class="process-step">
-      <span>02</span>
-      <div>
-        <h3>Research</h3>
-        <p>Studying references, trends, and competitors for insights.</p>
-      </div>
-    </div>
-    <div class="process-step">
-      <span>03</span>
-      <div>
-        <h3>Design & Iterate</h3>
-        <p>Wireframes and visuals refined through feedback cycles.</p>
-      </div>
-    </div>
-    <div class="process-step">
-      <span>04</span>
-      <div>
-        <h3>Polish & Deliver</h3>
-        <p>Final responsive and polished product.</p>
-      </div>
-    </div>
+    <div class="process-step"><span>01</span><div><h3>Understanding</h3><p>Clarifying goals and audience.</p></div></div>
+    <div class="process-step"><span>02</span><div><h3>Research</h3><p>Analyzing trends & references.</p></div></div>
+    <div class="process-step"><span>03</span><div><h3>Design & Iterate</h3><p>Wireframes & visuals refined through feedback.</p></div></div>
+    <div class="process-step"><span>04</span><div><h3>Polish & Deliver</h3><p>Final responsive product delivery.</p></div></div>
   </div>
 </section>
 
 <!-- SKILLS -->
-<section id="skills" class="reveal">
+<section id="skills" class="reveal alt">
   <h2 class="section-title">Skills</h2>
   <div class="skills-grid">
-    <div class="skill-card"><span>🎨</span>Graphic Design</div>
-    <div class="skill-card"><span>🧠</span>Branding</div>
-    <div class="skill-card"><span>📐</span>UI / UX Basics</div>
-    <div class="skill-card"><span>💻</span>Web Design</div>
-    <div class="skill-card"><span>📢</span>Digital Marketing</div>
+    <div class="skill-card"><img src="assets/icons/graphic.svg" alt=""><h3>Graphic Design</h3></div>
+    <div class="skill-card"><img src="assets/icons/branding.svg" alt=""><h3>Branding</h3></div>
+    <div class="skill-card"><img src="assets/icons/uiux.svg" alt=""><h3>UI / UX</h3></div>
+    <div class="skill-card"><img src="assets/icons/web.svg" alt=""><h3>Web Design</h3></div>
+    <div class="skill-card"><img src="assets/icons/marketing.svg" alt=""><h3>Digital Marketing</h3></div>
   </div>
 </section>
 
 <!-- SERVICES -->
-<section id="services" class="reveal alt">
+<section id="services" class="reveal">
   <h2 class="section-title">Services</h2>
   <div class="services-grid">
-    <div class="service-card"><span>✦</span><h3>Logo Design</h3><p>Minimal, memorable brand logos.</p></div>
-    <div class="service-card"><span>⬡</span><h3>Brand Identity</h3><p>Complete visual branding systems.</p></div>
-    <div class="service-card"><span>▢</span><h3>UI / UX Design</h3><p>User-focused interface design.</p></div>
-    <div class="service-card"><span>◉</span><h3>Web Design</h3><p>Responsive & modern layouts.</p></div>
+    <div class="service-card"><img src="assets/icons/logo.svg" alt=""><h3>Logo Design</h3><p>Minimal, memorable brand logos.</p></div>
+    <div class="service-card"><img src="assets/icons/identity.svg" alt=""><h3>Brand Identity</h3><p>Complete visual branding systems.</p></div>
+    <div class="service-card"><img src="assets/icons/uiux.svg" alt=""><h3>UI / UX Design</h3><p>User-focused interface design.</p></div>
+    <div class="service-card"><img src="assets/icons/web.svg" alt=""><h3>Web Design</h3><p>Responsive & modern layouts.</p></div>
   </div>
 </section>
 
 <!-- EXPERIENCE -->
-<section id="experience" class="reveal">
+<section id="experience" class="reveal alt">
   <h2 class="section-title">Experience & Learning</h2>
   <div class="experience-grid">
-    <div class="experience-card">
-      <h3>Freelance & Personal Projects</h3>
-      <p>Worked on logos, branding, and digital creatives for small clients and practice projects.</p>
-    </div>
-    <div class="experience-card highlight">
-      <h3>Academic Projects</h3>
-      <p>UI & visual projects as part of ICTE and Diploma coursework.</p>
-    </div>
-    <div class="experience-card">
-      <h3>Self Learning</h3>
-      <p>Continuous practice and exploration through tutorials and communities.</p>
-    </div>
+    <div class="experience-card"><h3>Freelance Projects</h3><p>Worked on logos, branding, and digital creatives for small clients and practice projects.</p></div>
+    <div class="experience-card highlight"><h3>Academic Projects</h3><p>UI & visual projects as part of ICTE coursework.</p></div>
+    <div class="experience-card"><h3>Self Learning</h3><p>Continuous exploration through tutorials and design communities.</p></div>
   </div>
 </section>
 
@@ -185,5 +147,3 @@
 
 </body>
 </html>
-
-
