@@ -71,3 +71,43 @@ footer{background:linear-gradient(135deg,var(--primary),var(--accent));color:#ff
 
 /* RESPONSIVE */
 @media(max-width:768px){.hero{grid-template-columns:1fr;text-align:center;}nav ul{display:none;position:absolute;top:60px;right:20px;background:var(--white);flex-direction:column;padding:20px;border-radius:14px;}nav ul.show{display:flex;}.menu-btn{display:block;}}
+
+
+/* HERO IMAGE */
+.hero-graphic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid var(--accent);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 2;
+  animation: float 6s ease-in-out infinite alternate;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Adjust hero layout for smaller screens */
+@media(max-width: 768px){
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .profile-picture {
+    margin: 40px auto 0;
+  }
+}
+
+
