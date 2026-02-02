@@ -109,5 +109,63 @@ footer{background:linear-gradient(135deg,var(--primary),var(--accent));color:#ff
     margin: 40px auto 0;
   }
 }
+/* PORTFOLIO GRID */
+.portfolio-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+  margin-top:30px;
+}
+
+/* PROJECT CARD */
+.project-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:18px;
+  cursor:pointer;
+  box-shadow:0 6px 18px rgba(0,0,0,0.1);
+  transition:0.4s;
+}
+.project-card img{
+  width:100%;
+  display:block;
+  transition:0.4s;
+}
+.project-card:hover img{
+  transform:scale(1.05);
+}
+
+/* OVERLAY */
+.project-overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(29,53,87,0.85);
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+  opacity:0;
+  transition:0.4s;
+}
+.project-card:hover .project-overlay{
+  opacity:1;
+}
+.project-overlay h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+.project-overlay p{
+  font-size:15px;
+  margin-bottom:12px;
+}
+.project-review{
+  font-size:14px;
+  font-style:italic;
+  color:#ffd700; /* gold star */
+}
+
 
 
