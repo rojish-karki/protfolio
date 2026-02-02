@@ -175,4 +175,46 @@ footer{background:linear-gradient(135deg,var(--primary),var(--accent));color:#ff
   color:#ffd700; /* gold star */
 }
 
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-buttons .btn {
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.contact-buttons .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Individual button colors */
+.contact-buttons .whatsapp-btn {
+  background: #25D366;
+}
+
+.contact-buttons .whatsapp-btn:hover {
+  background: #1ebe57;
+}
+
+.contact-buttons .insta-btn {
+  background: #C13584;
+}
+
+.contact-buttons .insta-btn:hover {
+  background: #a1286d;
+}
+
+.contact-buttons .btn:nth-child(1){ /* Email button */
+  background: linear-gradient(135deg,#1D3557,#E63946);
+}
+
 
